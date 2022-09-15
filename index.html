@@ -25,7 +25,7 @@
     
 
 
-    <link rel="stylesheet" href="src/style.css" />
+    <link rel="stylesheet" href="src/styles.css" />
     
 
     <title>Weather</title>
@@ -33,11 +33,11 @@
   <body>
     <div class="container">
       
-      <form id="search-form">
-        <input type="text" placeholder=" What is your current city? " size="40" id="search-input" />
+      <form id="city-search-form">
+        <input type="text" placeholder=" What is your current city? " size="40" id="city-search-input" />
         
         </textarea> <input type="submit" value="🔍" />
-        <button>Current</button>
+        <button id="current-btn">Current</button>
       </form>
       
       
@@ -47,22 +47,19 @@
            
       <div class="location">
       <span id="city-name">Milton Keynes:</span><br />
-      <span class="current-weather" id="current-weather"> Scattered Showers</span><br />
+      <span class="current-weather" id="current-weather-description"> Scattered Showers</span><br />
       <span class="temp" id="temp">20</span>
       <span><a href="#" id="celcius-link" class="celcius">°C </a> | <a href="#" id="fahrenheit-link" class="fahrenheit"> °F</a> 
       </span>
       
       </div>
-<div class="weather"> <i class="fa-solid fa-cloud-rain"></i>  </div>
 
 
 
-<div class="details">
-<p>Precipitation: 9% 
-  <br/>
-Humidity: 91%
-<br />
-Wind: 3 mph</p>
+
+<div class="details"> 
+<p id="humidity">Humidity: 91%</p>
+<p id="wind">Wind: 3 mph</p>
 
 </div>
 
