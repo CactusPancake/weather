@@ -1,0 +1,59 @@
+.container {
+  font-family: "Poppins", sans-serif;
+  margin-top: 100px;
+  border: 2px solid #c7d6e9;
+  border-radius: 10px;
+  padding: 50px;
+  width: 900px;
+  background: radial-gradient(
+    circle at 1.3% 2.8%,
+    rgb(239, 249, 249) 0%,
+    rgb(182, 199, 226) 100.2%
+  );
+}
+
+.location {
+  border: 2px solid #bbcce4;
+  border-radius: 5px;
+  margin: 10px 0;
+  text-align: left;
+  padding: 15px;
+  width: 300px;
+  font-size: 20px;
+  display: inline-block;
+}
+
+.weather {
+  font-size: 110px;
+  display: inline-block;
+  margin-left: 150px;
+}
+.row {
+  text-align: center;
+}
+
+.weather-icon {
+  font-size: 30px;
+}
+
+.temp {
+  font-size: 45px;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  color: #000;
+  border-radius: 3px;
+  border: 1px solid #000;
+  padding: 2px 15px;
+}
+
+.celcius {
+  font-size: 20px;
+}
+.fahrenheit {
+  font-size: 20px;
+}
